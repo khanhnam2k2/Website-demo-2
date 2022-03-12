@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="./style.css">
+
+  
+</head>
+<body>
+  <!-- HEADER -->
+    <section class="sub-header"> 
+        <nav>
+          <a href="#"><img src="./eduford_img/eduford_img/logo.png" class="logo"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fas fa-window-close" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="#">HOME</a></li>
+              <li><a href="#">ABOUT</a></li>
+              <li><a href="#course">COURSE</a></li>
+              <li><a href="#">BLOG</a></li>
+              <li><a href="#">CONTACT</a></li>
+            </ul>
+          </div>
+          <i class="fas fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+        
+      </section> 
+
+      <!-- About us content -->
+      <div class="about-content">
+          <div class="row">
+              <div class="about-col">
+                  <h1>We are the world's largest university</h1>
+                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel velit consectetur doloribus ipsam repellat aliquam maxime corporis, voluptate vitae, mollitia provident blanditiis debitis quae temporibus a non eius cupiditate vero?
+                  Quaerat fugit doloremque iste illo unde, assumenda libero sed facere excepturi hic, magni, illum similique ratione explicabo ut obcaecati deleniti consequatur! Nam quisquam architecto at voluptatibus. Aspernatur debitis rerum incidunt?</p>
+                  <a href="#" class="hero-btn red-btn">EXPLORE NOW</a>
+              </div>
+              <div class="about-col">
+                  <img src="./eduford_img/eduford_img/about.jpg" alt="">
+              </div>
+          </div>
+      </div>
+     
+
+
+
+
+     <!-- Footer -->
+     <section class="footer">
+       <h4>ABOUT US</h4>
+       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid velit expedita, atque nihil architecto ab unde laudantium mollitia sint dolores<br> itaque eveniet hic perspiciatis maiores ducimus vel, voluptate fugiat. Veniam?
+       </p>
+       <div class="icon">
+         <i class="fab fa-facebook"></i>
+         <i class="fab fa-instagram"></i>
+         <i class="fab fa-twitter"></i>
+         <i class="fab fa-linkedin"></i>
+
+       </div>
+       <p>Thanks for everyone <i class="fas fa-heart"></i><i class="fas fa-heart"></i><i class="fas fa-heart"></i></p>
+       
+
+
+     </section>
+
+</body>
+<script>
+      var navLinks = document.getElementById("navLinks")
+      function  showMenu(){
+        navLinks.style.right="0"
+      }
+      function  hideMenu(){
+        navLinks.style.right="-200px"
+      }
+</script>
+
+</html>
